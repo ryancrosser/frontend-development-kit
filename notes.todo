@@ -1,0 +1,38 @@
+If file already exist, diff the esisting and what would be new, allow users to decide
+
+Provide options for all file types
+
+ask if user want to use npm or yarn
+
+☐ Add config files (or add to package.json)
+  ☐ prettier.config.js
+  ☐ .eslintrc.js
+  ☐ .editorconfig
+  ☐ jest.config.js
+  ☐ jsconfig.json
+  ☐ tsconfig.json
+  ☐ stylelint.config.js
+  ☐ .npmrc
+  ☐ .browserlistrc
+  ☐ babel.config.js
+  ☐ postcss.config.js
+  ☐ vue.config.js
+☐ Add ignore files
+  ☐ .prettierignore
+  ☐ .eslintignore
+  ☐ .gitignore
+  ☐
+☐ Edit settings
+  ☐ VSCode
+☐ Add commitizen
+  ☐ Husky
+  ☐ allow user to select style (cross, conventional)
+☐ Create npm run scripts
+  ☐ dev (runs in watch mode)
+  ☐ start (reserved for the execution of app)
+☐ Create build script
+  ☐ webpack
+  ☐ rollup
+☐ Helper commands
+  ✔ delete node_modules, package-lock.json, and reinstall @done(20-01-26 21:49)
+  ☐ delete all node_modules (or in packages that have not been touched in n days)

@@ -1,0 +1,29 @@
+{
+  "name": "frontend-development-kit-cli",
+  "version": "1.0.0",
+  "description": "Common utilities for frontend developers working with Node.",
+  "bin": {
+    "fdk": "./bin/index.js"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "dev": "nodemon --ignore output/ --exec fdk clean packages -- --verbose --no-node_modules",
+    "start": "node ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Crosser <ryankcrosser@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "del": "^5.1.0",
+    "lodash": "^4.17.15",
+    "trash": "^6.1.1",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
